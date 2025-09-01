@@ -1,0 +1,64 @@
+/* ===================== Home Banner ===================== */
+
+.homeBanner {
+  
+  border-bottom: 2px solid #3EA99F;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0%;
+  padding-top: 4%;
+}
+.counteRow img{
+  /* filter: grayscale(100); */
+}
+.bttns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.bannerImg {
+  text-align: center;
+}
+
+
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 991px) {
+
+  .bttns {
+    gap: 20px;
+  }
+
+  .bannImg {
+  margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .homeBanner {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+  }
+
+  .count .counteRow {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .bttns {
+    flex-direction: unset;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  
+
+}

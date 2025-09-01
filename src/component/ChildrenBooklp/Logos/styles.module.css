@@ -1,0 +1,28 @@
+.embla {
+    max-width: 100%;
+    margin: 30px auto 0;
+    --slide-height: 19rem;
+    --slide-spacing: 3rem;
+    --slide-size: 100%;
+}
+
+.embla__container {
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.embla__slide {
+    flex: 0 0 auto;
+    min-width: 0;
+    margin: 0 30px;
+    padding-left: 3rem;
+}
+
+@media screen and (max-width:1199px) {
+    .embla__slide { 
+        margin: 0 10px;
+    }
+}

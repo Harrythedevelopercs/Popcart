@@ -1,0 +1,21 @@
+.embla {
+    max-width: 100%;
+    margin: 50px auto 0;
+    --slide-height: 19rem;
+    --slide-spacing: 5rem;
+    --slide-size: 100%;
+}
+
+.embla__container {
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.embla__slide {
+    flex: 0 0 auto;
+    min-width: 0;
+    padding-left: 3rem;
+} 

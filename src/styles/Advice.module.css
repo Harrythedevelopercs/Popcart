@@ -1,0 +1,14 @@
+.adviceFlod {
+  padding-top: 50px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===================== Media Queries ====================== */
+
+@media screen and (max-width: 991px) {
+  .adviceFlod .adviceRow {
+    gap: 40px;
+  }
+}

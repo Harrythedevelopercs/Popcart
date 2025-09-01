@@ -1,0 +1,146 @@
+.footer {
+  padding: 80px 0 50px;
+  overflow: hidden;
+}
+.footerRow .footerLogo{
+  /* filter: brightness(0) invert(1); */
+}
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.socialLinks img{
+  /* filter: brightness(0) invert(1); */
+}
+.footercenter{
+  display: flex;
+  justify-content: center;
+
+}
+.footercenter1{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.footerLinks h3  {
+  color: #000;
+}
+.footerLinks ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerLinks ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Molish" sans-serif;
+  color: #000;
+}
+
+.contct ul {
+  gap: 15px;
+}
+
+.contct ul li a {
+  position: relative;
+  left: 20px;
+}
+
+.contct ul li a::before {
+  position: absolute;
+}
+
+.contct ul li .callIcon::before {
+  content: url(../../public/images/icons/call.png);
+  top: 2px;
+  left: -20px;
+  /* filter: brightness(0) invert(1); */
+}
+
+.contct ul li .mailIcon::before {
+  content: url(../../public/images/icons/email.png);
+  top: 2px;
+  left: -20px;
+  /* filter: brightness(0) invert(1); */
+}
+
+.contct ul li .LocIcon::before {
+  content: url(../../public/images/icons/location.png);
+  top: 2px;
+  left: -20px;
+  /* filter: brightness(0) invert(1); */
+}
+
+.pyment {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.awards img {
+  /* filter: brightness(0) invert(1); */
+}
+.awards h3 {
+  position: relative;
+  color: #000;
+}
+
+.awards h3::before {
+  content: url(../../public/images/payment/break-line.png);
+  position: absolute;
+  top: -3px;
+  right: 0;
+  width: 94%;
+}
+
+.awards .slick-slider img {
+  width: 50px;
+  height: 50px;
+}
+
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 1199px) {
+
+  .footercenter{
+    display: flex;
+    justify-content: flex-start;
+  
+  }
+  .footercenter1{
+    display: flex;
+    justify-content: flex-start;
+  
+  }
+
+
+  .footer .footerRow {
+    row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 50px 0 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+ 
+  .footerLinks ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Molish,sans-serif;
+    color: #000;
+}
+
+
+}

@@ -1,0 +1,22 @@
+.plansFlod {
+  padding: 40px 0;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+.plans img{
+  display: inline;
+}
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 991px) {
+  .plansFlod .plansRow {
+    row-gap: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .plansFlod {
+    padding: 50px 0;
+  }
+  
+}

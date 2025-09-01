@@ -1,0 +1,30 @@
+.lpOneBookSlider .slick-dots li button:before {
+    opacity: 1 !important;
+    content: '' !important;
+}
+
+.lpOneBookSlider .slick-dots li button {
+    display: inline-block !important;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #3EA99F;
+    border-radius: 100px !important;
+    opacity: 0.55 !important;
+}
+
+.lpOneBookSlider .slick-dots li.slick-active button {
+    opacity: 1 !important;
+    width: 30px !important;
+}
+
+.lpOneBookSlider .slick-dots li {
+    margin: 0 !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.lpOneBookSlider .slick-dots {
+    display: flex !important;
+    gap: 10px !important;
+    justify-content: center !important;
+}

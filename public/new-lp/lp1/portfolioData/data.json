@@ -1,0 +1,68 @@
+[
+  {
+    "label": "Fiction",
+    "image": [
+      "/new-lp/portfolios/fiction/1.jpg",
+      "/new-lp/portfolios/fiction/2.jpg",
+      "/new-lp/portfolios/fiction/3.jpg",
+      "/new-lp/portfolios/fiction/4.jpg",
+      "/new-lp/portfolios/fiction/5.jpg",
+      "/new-lp/portfolios/fiction/6.jpg"
+    ]
+  },
+  {
+    "label": "Non-Fiction",
+    "image": [
+      "/new-lp/portfolios/non-fiction/1.jpg",
+      "/new-lp/portfolios/non-fiction/2.jpg",
+      "/new-lp/portfolios/non-fiction/3.jpg",
+      "/new-lp/portfolios/non-fiction/4.jpg",
+      "/new-lp/portfolios/non-fiction/5.jpg",
+      "/new-lp/portfolios/non-fiction/6.jpg"
+    ]
+  },
+  {
+    "label": "Biography",
+    "image": [
+      "/new-lp/portfolios/biography/1.jpg",
+      "/new-lp/portfolios/biography/2.jpg",
+      "/new-lp/portfolios/biography/3.jpg",
+      "/new-lp/portfolios/biography/4.jpg",
+      "/new-lp/portfolios/biography/5.jpg",
+      "/new-lp/portfolios/biography/6.jpg"
+    ]
+  },
+  {
+    "label": "informative",
+    "image": [
+      "/new-lp/portfolios/informative/1.jpg",
+      "/new-lp/portfolios/informative/2.jpg",
+      "/new-lp/portfolios/informative/3.jpg",
+      "/new-lp/portfolios/informative/4.jpg",
+      "/new-lp/portfolios/informative/5.jpg",
+      "/new-lp/portfolios/informative/6.jpg"
+    ]
+  },
+  {
+    "label": "autobiography",
+    "image": [
+      "/new-lp/portfolios/autobiography/1.jpg",
+      "/new-lp/portfolios/autobiography/2.jpg",
+      "/new-lp/portfolios/autobiography/3.jpg",
+      "/new-lp/portfolios/autobiography/4.jpg",
+      "/new-lp/portfolios/autobiography/5.jpg",
+      "/new-lp/portfolios/autobiography/6.jpg"
+    ]
+  },
+  {
+    "label": "memoir",
+    "image": [
+      "/new-lp/portfolios/memoir/1.jpg",
+      "/new-lp/portfolios/memoir/2.jpg",
+      "/new-lp/portfolios/memoir/3.jpg",
+      "/new-lp/portfolios/memoir/4.jpg",
+      "/new-lp/portfolios/memoir/5.jpg",
+      "/new-lp/portfolios/memoir/6.jpg"
+    ]
+  }
+]

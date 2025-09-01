@@ -1,0 +1,58 @@
+{
+  "name": "education-logo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.36",
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@gsap/react": "^2.1.2",
+    "@vimeo/player": "^2.29.0",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.2",
+    "embla-carousel-auto-scroll": "^8.2.0",
+    "embla-carousel-autoplay": "^8.2.0",
+    "embla-carousel-class-names": "^8.2.0",
+    "embla-carousel-fade": "^8.2.0",
+    "embla-carousel-react": "^8.2.0",
+    "eslint-config-next": "^14.0.1",
+    "gsap": "^3.12.7",
+    "next": "^15.3.3",
+    "nodemailer": "^6.9.9",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
+    "react-id-swiper": "^4.0.0",
+    "react-share": "^5.1.0",
+    "react-slick": "^0.29.0",
+    "sharp": "^0.33.4",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^10.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.6",
+    "@types/slick-carousel": "^1.6.39",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.52.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.4.31",
+    "postcss-import": "^16.1.0",
+    "tailwindcss": "^3.4.17"
+  },
+  "browserslist": [
+    "defaults and supports es6-module",
+    "not dead",
+    "not IE 11"
+  ]
+}

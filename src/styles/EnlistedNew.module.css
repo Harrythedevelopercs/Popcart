@@ -1,0 +1,202 @@
+.enlistedFlod {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.enlisImg {
+  display: flex;
+  flex-direction: column;
+}
+
+.enlisImg img {
+  /* filter: grayscale(100); */
+}
+
+.midImg {
+  text-align: left;
+  display: flex;
+  gap: 20px;
+  margin-left: 100px;
+}
+
+.para2 {
+  margin-top: 100px;
+}
+
+.para3 {
+  margin-top: 100px;
+
+}
+
+.para4 {
+  margin-top: 80px;
+}
+
+.para5 {
+  margin-top: 100px;
+}
+
+.para6 {
+  margin-top: 75px;
+}
+
+/* ========================== */
+.enlistedFlod{
+  position: relative;
+}
+.enlistedFlod::after{
+  content: "";
+  position: absolute;
+  /* background: url('../../public/images/afterEnlist.png'); */
+  background-repeat: no-repeat;
+  top: 20%;
+  right: 0;
+  width: 290px;
+  z-index: -80;
+  opacity: 0.8;
+  height: 800px;
+}
+.enlistedHead span.desc{
+  width: 50%;
+}
+.enlistedSlide {
+  padding: 50px 0;
+  background: var(--primary-color);
+}
+
+.enlistedLogo img {
+  width: 160px;
+}
+.enlisImg .w-50{
+  max-width: 60% !important;
+}
+.desc_black{
+  max-width: 50% !important;
+}
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 767px) {
+  .midImg {
+    margin-left: 0px;
+  }
+  .enlistedFlod::after{
+    display: none !important;
+  }
+  .enliscontenttt{
+    display: none;
+  }
+  .enlisImg .w-50{
+    max-width: 100% !important;
+  }
+  
+  .enlistedHead .desc{
+    max-width: 80%;
+  }
+  .para1 {
+    display: none;
+  }
+
+  .para2 {
+    display: none;
+  }
+
+  .para3 {
+    display: none;
+  }
+
+  .para4 {
+    display: none;
+  }
+
+  .para5 {
+    display: none;
+  }
+
+  .para6 {
+    display: none;
+  }
+  .font-30{
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+/* @media (min-width:390px) and (max-width: 640px) {
+  .para2 {
+    margin-top: 102px;
+  }
+  .enlistedHead .desc{
+    max-width: 90%;
+  }
+  .enlistedFlod::after{
+    display: none;
+  }
+  .para3 {
+    margin-top: 103px;
+  }
+
+  .para4 {
+    margin-top: 157px;
+  }
+
+  .para5 {
+    margin-top: 132px;
+  }
+
+  .para6 {
+    margin-top: 130px;
+  }
+  .ExceptionalCard Image{
+    display: none;
+  }
+  .font-30{
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+} */
+@media screen and (max-width: 991px) {
+  .midImg {
+    margin-left: 0px;
+  }
+  .enlistedFlod::after{
+    display: none !important;
+  }
+  .enliscontenttt{
+    display: none;
+  }
+  .enlisImg .w-50{
+    max-width: 100% !important;
+  }
+  
+  .enlistedHead .desc{
+    max-width: 80%;
+  }
+  .para1 {
+    display: none;
+  }
+
+  .para2 {
+    display: none;
+  }
+
+  .para3 {
+    display: none;
+  }
+
+  .para4 {
+    display: none;
+  }
+
+  .para5 {
+    display: none;
+  }
+
+  .para6 {
+    display: none;
+  }
+
+}

@@ -1,0 +1,701 @@
+.bookTabs {
+  padding: 100px 0px 50px;
+}
+.subtitle {
+  color: #3EA99F;
+  font-size: 30px;
+}
+.bookTabs h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #000;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+.bookTabs .bookPara {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.bookTabs .tabContainer .tabHeader ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0px 30px;
+}
+.bookTabs .tabContainer .tabHeader ul li {
+  position: relative;
+  height: 57px;
+  background: #ffffff;
+  border: 1px solid #99aebb;
+  border-radius: 93px;
+  overflow: hidden;
+  transition: color 0.3s ease, border-color 0.3s ease;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.165px;
+  color: #6f787d;
+  padding: 0px 25px;
+  cursor: pointer;
+  flex: 0 0 calc(100% / 4 - 10px);
+}
+.bookTabs .tabContainer .tabHeader ul li:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #3EA99F;
+  transition: width 0.3s ease;
+  z-index: 0;
+}
+.bookTabs .tabContainer .tabHeader ul li:hover:before {
+  width: 100%;
+}
+.bookTabs .tabContainer .tabHeader ul li:hover {
+  color: #fff;
+  border-color: #3EA99F;
+}
+.bookTabs .tabContainer .tabHeader ul li.active {
+  color: #fff;
+  border-color: #3EA99F;
+}
+.bookTabs .tabContainer .tabHeader ul li.active:before {
+  width: 100%;
+  background-color: #3EA99F;
+}
+.bookTabs .tabContainer .tabHeader ul li span {
+  position: relative;
+  z-index: 1;
+}
+.bookTabs .tabContainer .tabBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.bookTabs .tabContainer .tabBody .ImageBox {
+  height: 600px;
+  flex: 0 0 calc(100% / 4 - 10px);
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #3EA99F;
+}
+.bookTabs .tabContainer .tabBody .ImageBox img {
+  object-fit: cover;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+.bookTabs .tabContainer .tabBody .ImageBox .TxtBox {
+  display: none;
+  justify-content: space-between;
+  background: #fff;
+  flex-direction: column;
+  height: 100%;
+  border: 2px solid #3EA99F;
+  padding: 20px;
+  filter: drop-shadow(0px 14px 14px rgba(0, 0, 0, 0.05));
+  border-radius: 10px;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.165px;
+  color: #3EA99F;
+  margin-bottom: 10px;
+}
+.bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.165px;
+  color: #73858f;
+  margin-bottom: 5px;
+  height: 350px;
+  overflow: auto;
+}
+.bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title p::-webkit-scrollbar {
+  width: 0px;
+}
+.bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.165px;
+  text-decoration: underline;
+  color: #3EA99F;
+}
+.bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgBox {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgBox img {
+  display: block;
+  border-radius: 100%;
+}
+.bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.165px;
+  color: #000000;
+}
+.bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.165px;
+  color: #73858f;
+  display: block;
+}
+.bookTabs .tabContainer .tabBody .ImageBox:hover img {
+  opacity: 0;
+}
+.bookTabs .tabContainer .tabBody .ImageBox:hover .TxtBox {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+.bookTabs .tabContainer .tabBody .ImageBox:hover .TxtBox .profile .imgBox img {
+  opacity: 1;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .bookTabs {
+    padding: 50px 0px 50px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+  .bookTabs h2 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .bookPara {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  .bookTabs .tabContainer {
+    overflow: hidden;
+  }
+  .bookTabs .tabContainer .tabHeader ul {
+    gap: 10px;
+    margin: 20px 0px 30px;
+  }
+  .bookTabs .tabContainer .tabHeader ul li {
+    height: 55px;
+    font-size: 16px;
+    line-height: 55px;
+    padding: 0px 22px;
+  }
+  .bookTabs .tabContainer .tabBody {
+    flex-wrap: wrap;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox {
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox img {
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title h5 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 350px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title a {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile {
+    gap: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgBox {
+    height: 45px;
+    width: 45px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle span {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .bookTabs {
+    padding: 50px 0px 50px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+  .bookTabs h2 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .bookPara {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  .bookTabs .tabContainer .tabHeader ul {
+    gap: 10px;
+    margin: 15px 0px 30px;
+  }
+  .bookTabs .tabContainer .tabHeader ul li {
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+    padding: 0px 20px;
+  }
+  .bookTabs .tabContainer .tabBody {
+    flex-wrap: wrap;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox {
+    height: 450px;
+    position: relative;
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox img {
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title h5 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title p {
+    font-size: 13px;
+    line-height: 20px;
+    height: 300px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title a {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile {
+    gap: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgBox {
+    height: 45px;
+    width: 45px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle span {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .bookTabs {
+    padding: 50px 0px 50px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+  .bookTabs h2 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .bookPara {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  .bookTabs .tabContainer .tabHeader ul {
+    gap: 10px;
+    margin: 15px 0px 30px;
+  }
+  .bookTabs .tabContainer .tabHeader ul li {
+    height: 45px;
+    font-size: 14px;
+    line-height: 45px;
+    padding: 0px 20px;
+  }
+  .bookTabs .tabContainer .tabBody {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox {
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+    flex: 0 0 calc(100% / 3 - 30px);
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox img {
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox {
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title h5 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title a {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile {
+    gap: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgBox {
+    height: 40px;
+    width: 40px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle span {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .bookTabs {
+    padding: 50px 0px 50px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+  .bookTabs h2 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .bookPara {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  .bookTabs .tabContainer .tabHeader ul {
+    gap: 10px;
+    margin: 15px 0px 30px;
+  }
+  .bookTabs .tabContainer .tabHeader ul li {
+    height: 40px;
+    font-size: 13px;
+    line-height: 40px;
+    padding: 0px 20px;
+  }
+  .bookTabs .tabContainer .tabBody {
+    flex-wrap: wrap;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox {
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+    flex: 0 0 calc(100% / 3 - 10px);
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox img {
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox {
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title h5 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title a {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile {
+    gap: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgBox {
+    height: 40px;
+    width: 40px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle span {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .bookTabs {
+    padding: 50px 0px 50px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .bookTabs h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .bookPara {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .bookTabs .tabContainer .tabHeader ul {
+    gap: 5px;
+    margin: 10px 0px 30px;
+  }
+  .bookTabs .tabContainer .tabHeader ul li {
+    height: 40px;
+    font-size: 13px;
+    line-height: 40px;
+    padding: 0px 10px;
+  }
+  .bookTabs .tabContainer .tabBody {
+    flex-wrap: wrap;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox {
+    height: 450px;
+    position: relative;
+    border-radius: 10px;
+    flex: 0 0 calc(100% / 3 - 10px);
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox img {
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox {
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title h5 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title p {
+    font-size: 13px;
+    line-height: 20px;
+    height: 280px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title a {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile {
+    gap: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgBox {
+    height: 40px;
+    width: 40px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle span {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .bookTabs {
+    padding: 50px 0px 50px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .bookTabs h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .bookPara {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .bookTabs .tabContainer .tabHeader ul {
+    gap: 5px;
+    margin: 10px 0px 30px;
+  }
+  .bookTabs .tabContainer .tabHeader ul li {
+    height: 40px;
+    font-size: 11px;
+    line-height: 40px;
+    padding: 0px 5px;
+  }
+  .bookTabs .tabContainer .tabBody {
+    flex-wrap: wrap;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox {
+    height: 450px;
+    position: relative;
+    border-radius: 10px;
+    flex: 0 0 calc(100% / 2 - 10px);
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox img {
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox {
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title h5 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title p {
+    font-size: 13px;
+    line-height: 20px;
+    height: 300px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title a {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile {
+    gap: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgBox {
+    height: 40px;
+    width: 40px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle span {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .bookTabs {
+    padding: 50px 0px 50px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .bookTabs h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .bookPara {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .bookTabs .tabContainer .tabHeader ul {
+    gap: 5px;
+    margin: 10px 0px 10px;
+    flex-wrap: wrap;
+  }
+  .bookTabs .tabContainer .tabHeader ul li {
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    padding: 0px 10px;
+    flex: 0 0 calc(100% / 2 - 10px);
+  }
+  .bookTabs .tabContainer .tabBody {
+    flex-wrap: wrap;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox {
+    height: 450px;
+    position: relative;
+    border-radius: 10px;
+    flex: 0 0 calc(100% - 0px);
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox img {
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox {
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title h5 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title p {
+    font-size: 13px;
+    line-height: 20px;
+    height: 300px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .title a {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile {
+    gap: 10px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgBox {
+    height: 40px;
+    width: 40px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .bookTabs .tabContainer .tabBody .ImageBox .TxtBox .profile .imgTitle span {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}

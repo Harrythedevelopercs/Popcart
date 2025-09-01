@@ -1,0 +1,350 @@
+.blogMainSec {
+  padding-top: 100px;
+}
+.blogMainSec .blogsubtitle {
+  color: #3EA99F;
+  font-size: 30px;
+  font-weight: 600;
+}
+.blogMainSec h1 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+.blogMainSec p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px !important;
+}
+.blogMainSec .bannerImg {
+  height: 450px;
+  width: auto;
+  border-radius: 10px;
+  position: relative;
+  img {
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+.blogListingSec {
+  padding: 80px 0px;
+}
+.blogListingSec .blogMainListing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.blogListingSec .blogMainListing .blogListItem {
+  flex: 0 0 calc(33.33% - 15px);
+  background: #f9f9f9;
+  margin-bottom: 20px;
+}
+.blogListingSec .blogMainListing .blogListItem .imgBox {
+  position: relative;
+  height: 280px;
+  margin-bottom: 10px;
+  img {
+    object-fit: cover;
+  }
+}
+.blogListingSec .blogMainListing .blogListItem .contentBox {
+  padding: 10px 20px;
+}
+.blogListingSec .blogMainListing .blogListItem .contentBox h4 {
+  color: #000;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+  margin-bottom: 5px;
+}
+.blogListingSec .blogMainListing .blogListItem .contentBox .blogInfo {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  font-style: normal;
+  text-align: left;
+  color: #0000008a;
+  margin-bottom: 10px;
+}
+.blogListingSec .blogMainListing .blogListItem .contentBox p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 10px !important;
+}
+.blogListingSec .blogMainListing .blogListItem .contentBox a {
+  background: #3EA99F;
+  color: #fff;
+  height: 35px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .blogMainSec {
+    padding-top: 80px;
+  }
+  .blogMainSec .blogsubtitle {
+    font-size: 28px;
+  }
+  .blogMainSec h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 10px;
+  }
+  .blogMainSec p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px !important;
+  }
+  .blogMainSec .bannerImg {
+    height: 420px;
+  }
+  .blogListingSec {
+    padding: 70px 0px;
+  }
+  .blogListingSec .blogMainListing .blogListItem {
+    flex: 0 0 calc(33.33% - 15px);
+    margin-bottom: 20px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .imgBox {
+    height: 250px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox h4 {
+    font-size: 23px;
+    line-height: 32px;
+    margin-bottom: 5px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox .blogInfo {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px !important;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox a {
+    height: 35px;
+    width: 120px;
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1399px) {
+  .blogMainSec {
+    padding-top: 70px;
+  }
+  .blogMainSec .blogsubtitle {
+    font-size: 25px;
+  }
+  .blogMainSec h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px;
+  }
+  .blogMainSec p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px !important;
+  }
+  .blogMainSec .bannerImg {
+    height: 380px;
+  }
+  .blogListingSec {
+    padding: 60px 0px;
+  }
+  .blogListingSec .blogMainListing .blogListItem {
+    flex: 0 0 calc(33.33% - 15px);
+    margin-bottom: 20px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .imgBox {
+    height: 250px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox .blogInfo {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px !important;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox a {
+    height: 35px;
+    border-radius: 5px;
+    width: 110px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1099px) {
+  .blogMainSec {
+    padding-top: 50px;
+  }
+  .blogMainSec .blogsubtitle {
+    font-size: 22px;
+  }
+  .blogMainSec h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px;
+  }
+  .blogMainSec p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px !important;
+  }
+  .blogMainSec .bannerImg {
+    height: 300px;
+  }
+  .blogListingSec {
+    padding: 50px 0px;
+  }
+  .blogListingSec .blogMainListing .blogListItem {
+    flex: 0 0 calc(33.33% - 15px);
+    margin-bottom: 20px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .imgBox {
+    height: 200px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox h4 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 5px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox .blogInfo {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px !important;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox a {
+    height: 32px;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .blogMainSec {
+    padding-top: 50px;
+  }
+  .blogMainSec .blogsubtitle {
+    font-size: 22px;
+  }
+  .blogMainSec h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px;
+  }
+  .blogMainSec p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px !important;
+  }
+  .blogMainSec .bannerImg {
+    height: 300px;
+  }
+  .blogListingSec {
+    padding: 50px 0px;
+  }
+  .blogListingSec .blogMainListing .blogListItem {
+    flex: 0 0 calc(50% - 5px);
+    margin-bottom: 15px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .imgBox {
+    height: 200px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox {
+    padding: 10px 15px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox h4 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 5px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox .blogInfo {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px !important;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox a {
+    height: 32px;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .blogMainSec {
+    padding-top: 50px;
+  }
+  .blogMainSec .blogsubtitle {
+    font-size: 22px;
+  }
+  .blogMainSec h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px;
+  }
+  .blogMainSec p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px !important;
+  }
+  .blogMainSec .bannerImg {
+    height: 250px;
+  }
+  .blogListingSec {
+    padding: 50px 0px;
+  }
+  .blogListingSec .blogMainListing .blogListItem {
+    flex: 0 0 calc(100% - 0px);
+    margin-bottom: 15px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .imgBox {
+    height: 200px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox {
+    padding: 10px 15px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox h4 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 5px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox .blogInfo {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px !important;
+  }
+  .blogListingSec .blogMainListing .blogListItem .contentBox a {
+    height: 32px;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,31 @@
+  .embla__button {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgb(136, 168, 216);
+    touch-action: manipulation;
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 1;
+    border-radius: 100%;
+    color: white;
+    border: 2px solid rgb(88, 127, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .embla__button:disabled {
+    color: white;
+    background-color: transparent;
+  }
+
+  .embla__button__svg {
+    width: 50%;
+    height: 50%;
+  }

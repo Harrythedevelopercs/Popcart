@@ -1,0 +1,49 @@
+/** Use MRContent1 **/
+<MRContent1
+    subTitle="Our Exceptional" (default = " ")
+    title="Ghostwriting Services" (default = " ")
+    desc="What if we tell you that you no longer have to worry about writing? It’ll ease so many of your problems, right? <span class='h-3 block'></span> Broadway Publishers's exceptional ghostwriting services set them apart in the industry. Their team of skilled writers possesses a rare talent for impeccably embodying the voice and vision of their clients, whether it's for a memoir, a novel, or corporate literature." (default = " ")
+    listTitle="Our process is simple yet effective." (default = " ")
+    list={[
+    "Genuine Content",
+    "Extensive Formatting",
+    "Critical Reviews and Assessments",
+    "Copy Editing",
+    "Editing and Proofreading",
+    "Publishing, Marketing, and Promotions",
+    "Creative Consultancy",
+    "Line and Developmental Editing"
+    ]} (default = " ")
+    listClasses= (default = "grid grid-cols-2 gap-3")
+    classes="bg-[url('../../public/imageAR/serviceBG.png')]" (default = " ")
+    theme="dark" (default = "light")
+    textTheme="text-white" (default = "text-black")
+    img1="/assets/images/newimg/ghostwriting_book.png" (default = " ")
+    img2="/imageAR/woman-writing-.png" (default = " ")
+    listing={false} (default = true)
+    direction="flex-row-reverse" (default = " ")
+    cta={false} (default = true)
+/>
+
+/** Use MRCards **/
+
+<MRCards
+  title={`Discover What Exceptional Writing <br class="mr-xl:block hidden" /> Services We Offer`}
+  desc="Uncover the unparalleled excellence of our publishing services, where each word is meticulously crafted to captivate and inspire. Explore the realm of literary mastery with our team and discover the epitome of quality in every page turned."
+  gridsClasses="mr-xl:grid-cols-4 mr-lg:grid-cols-3 mr-sm:grid-cols-2"
+  cta={false}
+  data={[
+    {
+      indexing: true,
+      classes: "bg-white shadow-lg px-3 rounded-lg relative py-[40px] mt-[30px] transition-all duration-300 ease-in-out hover:!bg-[#3EA99F] hover:!text-white",
+      cta: false,
+      stepText: "",
+      content: [
+        {
+          title: "Book Editing",
+          desc: "Once your ideas are on paper, you need an expert’s eye to look for the red flags. Book editing can be a tiresome and redundant process for which we have experts running the show. Book Writing Expert enhances your book’s vocabulary and sentence formations, in order to provide your readers a refined product.",
+        },
+      ]
+    },
+  ]}
+/>

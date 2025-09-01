@@ -1,0 +1,167 @@
+.sidebar {
+  width: 90%;
+  margin-left: auto;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
+.sidebar h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 37px;
+}
+
+.navigations {
+  border-radius: 10px;
+  background: white;
+  margin-bottom: 45px;
+  padding-top: 20px;
+}
+
+.mainHeading {
+  background: #000;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.active {
+  position: relative;
+  color: #3EA99F;
+}
+
+.active::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  top: 0px;
+  left: -30px;
+  background: #3EA99F;
+}
+
+.mainHeading h3 {
+  font-size: 28px;
+  line-height: 38px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.navigations ul {
+  padding: 0;
+  border: 1px solid #bfbfbf;
+  background-color: #f3f3f3;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.services ul li::before,
+.articles ul li::before,
+.navigations ul li::before {
+  position: inherit;
+  content: none;
+}
+
+.navigations ul li:not(:last-child) {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.navigations ul li {
+  padding: 17px 30px;
+}
+
+.navigations ul li a {
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  position: relative;
+}
+
+.articles {
+  margin-bottom: 60px;
+}
+
+.articles ul {
+  padding: 0;
+}
+
+.articles ul li {
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 3px;
+  margin-bottom: 30px;
+}
+
+.articles ul li p {
+  font-size: 16px;
+  line-height: 21px;
+  color: #3EA99F;
+}
+
+.articles ul li h6 {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 500;
+}
+
+.services ul {
+  padding: 0;
+}
+
+.services ul li {
+  margin-bottom: 20px;
+  background: #f3f3f3;
+  border-radius: 40px;
+  padding: 10px 30px;
+  width: max-content;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
+
+.noList li::before,
+.navHeadings li::before {
+  display: none;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1299px) {
+  .navigations ul li a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .navigations ul li {
+    padding: 17px 16px;
+  }
+
+  .articles ul li h6 {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 1099px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .sidebar {
+    padding-top: 00px;
+  }
+
+  .services ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 10px 30px;
+  }
+}

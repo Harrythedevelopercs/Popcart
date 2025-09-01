@@ -1,0 +1,11 @@
+.mockupsHead img{
+  /* filter: grayscale(100); */
+  display: inline-block
+}
+.traditionFold {
+  padding: 50px 0;
+  margin: 0 auto;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}

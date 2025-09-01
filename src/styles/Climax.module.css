@@ -1,0 +1,39 @@
+.climaxFold {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.climaxFold p{
+  line-height: 1.5;
+}
+.climaxFold h4{
+  line-height: 1.2;
+}
+.bttns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 991px) {
+  .climaxFold .climaxRow {
+    gap: 40px;
+  }
+
+  .bttns {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .bttns {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+}

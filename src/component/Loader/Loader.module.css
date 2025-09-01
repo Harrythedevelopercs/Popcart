@@ -1,0 +1,36 @@
+.animi {
+  color: #3EA99F
+}
+.loader .para {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-family: "font-sans";
+  text-transform: uppercase;
+  position: relative;
+}
+.loader .para::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  color: #fff;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  animation: move 2.5s infinite;
+}
+@keyframes move {
+  0% {
+    background: #3EA99F;
+    left: -100px;
+  }
+  50% {
+    background: #3EA99F;
+    left: 0px;
+  }
+  100% {
+    background: #3EA99F;
+    left: -100px;
+  }
+}

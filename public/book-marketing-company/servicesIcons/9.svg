@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.808" height="40" viewBox="0 0 26.808 40">
+  <g id="postcard" transform="translate(-84.426 0)">
+    <g id="Group_53910" data-name="Group 53910" transform="translate(87.83 9.362)">
+      <g id="Group_53909" data-name="Group 53909">
+        <path id="Path_126698" data-name="Path 126698" d="M147.361,119.829H128.637a.638.638,0,0,0-.638.638v19.149a.638.638,0,0,0,.638.638H139.7a.638.638,0,1,0,0-1.277H129.276V121.106h17.447v17.872h-4.468a.638.638,0,1,0,0,1.277h5.106a.638.638,0,0,0,.638-.638V120.467A.638.638,0,0,0,147.361,119.829Z" transform="translate(-127.999 -119.829)"/>
+      </g>
+    </g>
+    <g id="Group_53912" data-name="Group 53912" transform="translate(87.83 33.617)">
+      <g id="Group_53911" data-name="Group 53911">
+        <path id="Path_126699" data-name="Path 126699" d="M147.361,430.3H128.637a.638.638,0,1,0,0,1.277h18.723a.638.638,0,1,0,0-1.277Z" transform="translate(-127.999 -430.298)"/>
+      </g>
+    </g>
+    <g id="Group_53914" data-name="Group 53914" transform="translate(84.426 0)">
+      <g id="Group_53913" data-name="Group 53913" transform="translate(0 0)">
+        <path id="Path_126700" data-name="Path 126700" d="M110.6,5.958H89.711L105.7,1.48V4.043a.638.638,0,0,0,1.277,0V.639a.638.638,0,0,0-.81-.615L84.906,5.978a.639.639,0,0,0-.48.611V39.362a.638.638,0,0,0,.638.638H110.6a.638.638,0,0,0,.638-.638V6.6A.638.638,0,0,0,110.6,5.958Zm-.638,32.766H85.7V7.234h24.255Z" transform="translate(-84.426 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>
