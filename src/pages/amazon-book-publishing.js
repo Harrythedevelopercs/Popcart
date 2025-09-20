@@ -63,7 +63,7 @@ const amazonpublishing = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     name: "Amazon Publishing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/amazon-book-publishing",
+    url: "https://www.broadwaypublishers.com/amazon-book-publishing",
     potentialAction: {
       "@type": "SearchAction",
       target: "{search_term_string}",
@@ -74,8 +74,8 @@ const amazonpublishing = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     name: "Amazon Publishing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/amazon-book-publishing",
-    logo: "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+    url: "https://www.broadwaypublishers.com/amazon-book-publishing",
+    logo: "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
   };
 
   const schemaProffesionalService = {
@@ -83,8 +83,8 @@ const amazonpublishing = () => {
     "@type": "ProfessionalService",
     name: "Amazon Publishing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
-    url: "https://www.bestsellingpublisher.com/amazon-book-publishing",
+      "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
+    url: "https://www.broadwaypublishers.com/amazon-book-publishing",
     telephone: "(800) 781-9093",
     address: {
       "@type": "PostalAddress",
@@ -111,7 +111,7 @@ const amazonpublishing = () => {
     "@type": "Product",
     name: "Amazon Publishing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+      "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
     description:
       "Get your book published on Amazon with our professional Amazon publishing services",
     brand: {
@@ -145,7 +145,7 @@ const amazonpublishing = () => {
 
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/amazon-book-publishing"
+          content="https://www.broadwaypublishers.com/amazon-book-publishing"
         />
         <meta
           property="og:image"
@@ -155,7 +155,7 @@ const amazonpublishing = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/amazon-book-publishing"
+          href="https://www.broadwaypublishers.com/amazon-book-publishing"
         />
 
         {/* Schema */}

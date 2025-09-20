@@ -52,7 +52,7 @@ const Publication = () => {
         />
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/book-publishing-services"
+          content="https://www.broadwaypublishers.com/book-publishing-services"
         />
         <meta
           property="og:image"
@@ -62,7 +62,7 @@ const Publication = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/book-publishing-services"
+          href="https://www.broadwaypublishers.com/book-publishing-services"
         />
         <script
           type="application/ld+json"
@@ -72,9 +72,9 @@ const Publication = () => {
               "@type": "ProfessionalService",
               name: "Book Publishing Services",
               image:
-                "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+                "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
               "@id": "",
-              url: "https://www.bestsellingpublisher.com/book-publishing-services",
+              url: "https://www.broadwaypublishers.com/book-publishing-services",
               telephone: "855-666-6675",
               address: {
                 "@type": "PostalAddress",

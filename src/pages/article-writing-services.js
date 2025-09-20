@@ -108,7 +108,7 @@ const ArticleWritingServices = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     name: "Article Writing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/article-writing-services",
+    url: "https://www.broadwaypublishers.com/article-writing-services",
     potentialAction: {
       "@type": "SearchAction",
       target: "{search_term_string}",
@@ -119,17 +119,17 @@ const ArticleWritingServices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     name: "Article Writing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/article-writing-services",
-    logo: "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+    url: "https://www.broadwaypublishers.com/article-writing-services",
+    logo: "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
   };
   const schemaProffesionalService = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     name: "Broadway Publishers | Exceptional Article Writing Services",
     image:
-      "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+      "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
     "@id": "",
-    url: "https://www.bestsellingpublisher.com/article-writing-services",
+    url: "https://www.broadwaypublishers.com/article-writing-services",
     telephone: "855-666-6675",
     address: {
       "@type": "PostalAddress",
@@ -164,7 +164,7 @@ const ArticleWritingServices = () => {
     "@type": "Product",
     name: "Article Writing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+      "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
     description:
       "Discover our professional article writing services by hiring us today",
     brand: {
@@ -194,7 +194,7 @@ const ArticleWritingServices = () => {
 
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/article-writing-services"
+          content="https://www.broadwaypublishers.com/article-writing-services"
         />
         <meta
           property="og:image"
@@ -204,7 +204,7 @@ const ArticleWritingServices = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/article-writing-services"
+          href="https://www.broadwaypublishers.com/article-writing-services"
         />
 
         {/* Schema */}
@@ -277,7 +277,7 @@ const ArticleWritingServices = () => {
       <CTA
         subtitle="It's Time to Kick Off Your Dream Project"
         title="Are You Ready to Start Publishing?"
-        desc="Our team is here for you if you want to start <a href='https://www.bestsellingpublisher.com/book-publishing'> book publishing</a>! Do you have questions or need assistance? Just reach out during our operational hours. We're always happy to help. Don't be shy – we'd love to hear from you!"
+        desc="Our team is here for you if you want to start <a href='https://www.broadwaypublishers.com/book-publishing'> book publishing</a>! Do you have questions or need assistance? Just reach out during our operational hours. We're always happy to help. Don't be shy – we'd love to hear from you!"
       />
       <MRCards
         subTitle="We Pursue"

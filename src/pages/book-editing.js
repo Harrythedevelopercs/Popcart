@@ -69,7 +69,7 @@ const BookEditing = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     name: "Book Editing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/book-editing",
+    url: "https://www.broadwaypublishers.com/book-editing",
     potentialAction: {
       "@type": "SearchAction",
       target: "{search_term_string}",
@@ -80,17 +80,17 @@ const BookEditing = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     name: "Book Editing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/book-editing",
-    logo: "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+    url: "https://www.broadwaypublishers.com/book-editing",
+    logo: "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
   };
   const schemaProffesionalService = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     name: "Professional Book Editing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+      "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
     "@id": "",
-    url: "https://www.bestsellingpublisher.com/book-editing",
+    url: "https://www.broadwaypublishers.com/book-editing",
     telephone: "855-666-6675",
     address: {
       "@type": "PostalAddress",
@@ -125,7 +125,7 @@ const BookEditing = () => {
     "@type": "Product",
     name: "Book Editing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+      "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
     description:
       "Get your manuscript edited by our leading book editors. Hire our book editing services today",
     brand: {
@@ -151,7 +151,7 @@ const BookEditing = () => {
 
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/book-editing"
+          content="https://www.broadwaypublishers.com/book-editing"
         />
         <meta
           property="og:image"
@@ -161,7 +161,7 @@ const BookEditing = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/book-editing"
+          href="https://www.broadwaypublishers.com/book-editing"
         />
 
         {/* Schema */}

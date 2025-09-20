@@ -48,7 +48,7 @@ const OurReviews = () => {
         />
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/case-studies"
+          href="https://www.broadwaypublishers.com/case-studies"
         />
         <script
           type="application/ld+json"
@@ -58,9 +58,9 @@ const OurReviews = () => {
               "@type": "ProfessionalService",
               name: "Book Marketing & Publishing Case Studies",
               image:
-                "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+                "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
               "@id": "",
-              url: "https://www.bestsellingpublisher.com/case-studies",
+              url: "https://www.broadwaypublishers.com/case-studies",
               telephone: "855-666-6675",
               address: {
                 "@type": "PostalAddress",

@@ -41,7 +41,7 @@ const DigitalBookPublishingFa = () => {
         />
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/digital-book-publishing-tx"
+          href="https://www.broadwaypublishers.com/digital-book-publishing-tx"
         />
         <script
           type="application/ld+json"
@@ -51,9 +51,9 @@ const DigitalBookPublishingFa = () => {
               "@type": "ProfessionalService",
               name: "Digital Book Publishing in Texas",
               image:
-                "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+                "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
               "@id": "",
-              url: "https://www.bestsellingpublisher.com/digital-book-publishing-tx",
+              url: "https://www.broadwaypublishers.com/digital-book-publishing-tx",
               telephone: "855-666-6675",
               address: {
                 "@type": "PostalAddress",

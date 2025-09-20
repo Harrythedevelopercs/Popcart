@@ -13,7 +13,7 @@ const Portfolio = () => {
         <meta name="ICBM" content="39.78373, -100.445882" />
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/portfolio"
+          content="https://www.broadwaypublishers.com/portfolio"
         />
         <meta
           property="og:image"
@@ -23,7 +23,7 @@ const Portfolio = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/portfolio"
+          href="https://www.broadwaypublishers.com/portfolio"
         />
       </Head>
       <BookTabs />

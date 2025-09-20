@@ -41,7 +41,7 @@ const ChildrenIllustrationFa = () => {
         />
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/children-Illustration-tx"
+          href="https://www.broadwaypublishers.com/children-Illustration-tx"
         />
         <script
           type="application/ld+json"
@@ -51,9 +51,9 @@ const ChildrenIllustrationFa = () => {
               "@type": "ProfessionalService",
               name: "Children Book Illustration in Texas",
               image:
-                "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+                "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
               "@id": "",
-              url: "https://www.bestsellingpublisher.com/children-Illustration-tx",
+              url: "https://www.broadwaypublishers.com/children-Illustration-tx",
               telephone: "855-666-6675",
               address: {
                 "@type": "PostalAddress",

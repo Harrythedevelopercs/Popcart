@@ -116,7 +116,7 @@ const MagazineWriting = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     name: "Magazine Writing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/magazine-writing",
+    url: "https://www.broadwaypublishers.com/magazine-writing",
     potentialAction: {
       "@type": "SearchAction",
       target: "{search_term_string}",
@@ -127,17 +127,17 @@ const MagazineWriting = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     name: "Magazine Writing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/magazine-writing",
-    logo: "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+    url: "https://www.broadwaypublishers.com/magazine-writing",
+    logo: "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
   };
   const schemaProffesionalService = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     name: "Magazine Writing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+      "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
     "@id": "",
-    url: "https://www.bestsellingpublisher.com/magazine-writing",
+    url: "https://www.broadwaypublishers.com/magazine-writing",
     telephone: "855-666-6675",
     address: {
       "@type": "PostalAddress",
@@ -172,7 +172,7 @@ const MagazineWriting = () => {
     "@type": "Product",
     name: "Magazine Writing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+      "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
     description:
       "Hire our professional magazine writing services and make your magazine a masterpiece",
     brand: {
@@ -199,7 +199,7 @@ const MagazineWriting = () => {
         <meta name="ICBM" content="39.78373, -100.445882" />
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/magazine-writing"
+          content="https://www.broadwaypublishers.com/magazine-writing"
         />
         <meta
           property="og:image"
@@ -209,7 +209,7 @@ const MagazineWriting = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/magazine-writing"
+          href="https://www.broadwaypublishers.com/magazine-writing"
         />
 
         {/* Schema */}

@@ -60,7 +60,7 @@ const MRCardData = [
       },
       {
         title: "Amazon Book Publishing",
-        desc: `We specialize in <a href="https://www.bestsellingpublisher.com/amazon-book-publishing" rel="dofollow"> Amazon Publishing Services </a> to provide comprehensive support for authors looking to thrive in the competitive online marketplace. From formatting to optimization, we handle every aspect to ensure your book stands out and reaches its full potential on Amazon. With expertise in Kindle Direct Publishing (KDP) setup and keyword optimization, we maximize your book's reach and potential sales.`,
+        desc: `We specialize in <a href="https://www.broadwaypublishers.com/amazon-book-publishing" rel="dofollow"> Amazon Publishing Services </a> to provide comprehensive support for authors looking to thrive in the competitive online marketplace. From formatting to optimization, we handle every aspect to ensure your book stands out and reaches its full potential on Amazon. With expertise in Kindle Direct Publishing (KDP) setup and keyword optimization, we maximize your book's reach and potential sales.`,
       },
       {
         title: "Book Editing and Publishing",
@@ -76,7 +76,7 @@ const MRCardData = [
       },
       {
         title: "Book Printing",
-        desc: `From paperback to hardcover, we offer many options to suit your needs in our <a href="https://www.bestsellingpublisher.com/book-printing" rel="dofollow">book printing services.</a> Using cutting-edge technology, we take pride in delivering top-grade printing quality to ensure every detail of your book is reproduced with clarity and precision.`,
+        desc: `From paperback to hardcover, we offer many options to suit your needs in our <a href="https://www.broadwaypublishers.com/book-printing" rel="dofollow">book printing services.</a> Using cutting-edge technology, we take pride in delivering top-grade printing quality to ensure every detail of your book is reproduced with clarity and precision.`,
       },
     ],
   },
@@ -126,7 +126,7 @@ const Home = () => {
         <meta name="robots" content="noindex, nofollow" />
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com//lp/lp5"
+          content="https://www.broadwaypublishers.com//lp/lp5"
         />
         <meta
           property="og:image"
@@ -134,7 +134,7 @@ const Home = () => {
         />
 
         {/* canonical: */}
-        <link rel="canonical" href="https://www.bestsellingpublisher.com/lp/lp5" />
+        <link rel="canonical" href="https://www.broadwaypublishers.com/lp/lp5" />
 
       </Head>
       <Header colorChange={true} />

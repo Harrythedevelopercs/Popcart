@@ -48,7 +48,7 @@ const BookMarketing = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     name: "Book Marketing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/book-marketing",
+    url: "https://www.broadwaypublishers.com/book-marketing",
     potentialAction: {
       "@type": "SearchAction",
       target: "{search_term_string}",
@@ -59,17 +59,17 @@ const BookMarketing = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     name: "Book Marketing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/book-marketing",
-    logo: "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+    url: "https://www.broadwaypublishers.com/book-marketing",
+    logo: "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
   };
   const schemaProffesionalService = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     name: "Best Book Marketing Services",
     image:
-      "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+      "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
     "@id": "",
-    url: "https://www.bestsellingpublisher.com/book-marketing",
+    url: "https://www.broadwaypublishers.com/book-marketing",
     telephone: "855-666-6675",
     address: {
       "@type": "PostalAddress",
@@ -104,7 +104,7 @@ const BookMarketing = () => {
     "@type": "Product",
     name: "Book Marketing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+      "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
     description:
       "Market your book on Amazon and other platforms with our high quality book marketing services",
     brand: {
@@ -129,7 +129,7 @@ const BookMarketing = () => {
 
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/book-marketing"
+          content="https://www.broadwaypublishers.com/book-marketing"
         />
         <meta
           property="og:image"
@@ -139,7 +139,7 @@ const BookMarketing = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/book-marketing"
+          href="https://www.broadwaypublishers.com/book-marketing"
         />
 
         {/* Schema */}

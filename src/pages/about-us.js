@@ -59,7 +59,7 @@ const about = () => {
 
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/about-us"
+          content="https://www.broadwaypublishers.com/about-us"
         />
         <meta
           property="og:image"
@@ -69,7 +69,7 @@ const about = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/about-us"
+          href="https://www.broadwaypublishers.com/about-us"
         />
       </Head>
       <main>

@@ -213,25 +213,25 @@ export function getBlogContent(key) {
                   mainEntityOfPage: {
                     "@type": "WebPage",
                     "@id":
-                      "https://www.bestsellingpublisher.com/what-is-amazon-kdp",
+                      "https://www.broadwaypublishers.com/what-is-amazon-kdp",
                   },
                   headline: "Amazon KDP Explained",
                   image: [
-                    "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpost1.0bae54a3.webp&w=640&q=75",
+                    "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpost1.0bae54a3.webp&w=640&q=75",
                   ],
                   datePublished: "2025-07-21T00:00:00+00:00",
                   dateModified: "2025-07-21T00:00:00+00:00",
                   author: {
                     "@type": "Organization",
                     name: "Broadway Publishers",
-                    url: "https://www.bestsellingpublisher.com/",
+                    url: "https://www.broadwaypublishers.com/",
                   },
                   publisher: {
                     "@type": "Organization",
                     name: "Broadway Publishers",
                     logo: {
                       "@type": "ImageObject",
-                      url: "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=75",
+                      url: "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=75",
                     },
                   },
                   description:

@@ -26,7 +26,7 @@ const data = [
     },
     {
         heading: "E-Book Publishing",
-        para: `We format, design, and distribute your eBooks across major platforms like Amazon Kindle, Apple Books, and Google Play. Our technical team ensures compatibility across devices for smooth reading experiences. Reach wider audiences, boost your visibility, and maximize sales with our professional <a href="https://www.bestsellingpublisher.com/ebook-publishing" rel="dofollow"> ebook publishing service.</a>`,
+        para: `We format, design, and distribute your eBooks across major platforms like Amazon Kindle, Apple Books, and Google Play. Our technical team ensures compatibility across devices for smooth reading experiences. Reach wider audiences, boost your visibility, and maximize sales with our professional <a href="https://www.broadwaypublishers.com/ebook-publishing" rel="dofollow"> ebook publishing service.</a>`,
         alt: "E-Book Writing"
     },
     {
@@ -37,7 +37,7 @@ const data = [
     },
     {
         heading: "Book Marketing",
-        para: `We strategize promotions across social media, Amazon, and book review platforms. Our targeted advertising maximizes audience engagement, driving sales and building reader loyalty. Other than strategic promotion and target advertising of your book, our <a href="https://www.bestsellingpublisher.com/book-marketing" rel="dofollow">book marketing services</a> include personalized outreach to influencers and bloggers in your book's genre.`,
+        para: `We strategize promotions across social media, Amazon, and book review platforms. Our targeted advertising maximizes audience engagement, driving sales and building reader loyalty. Other than strategic promotion and target advertising of your book, our <a href="https://www.broadwaypublishers.com/book-marketing" rel="dofollow">book marketing services</a> include personalized outreach to influencers and bloggers in your book's genre.`,
         alt: "Children’s Book Publication"
     },
 ]

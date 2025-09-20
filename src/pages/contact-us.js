@@ -50,7 +50,7 @@ const contact = () => {
 
           <meta
             property="og:url"
-            content="https://www.bestsellingpublisher.com/contact-us"
+            content="https://www.broadwaypublishers.com/contact-us"
           />
           <meta
             property="og:image"
@@ -60,7 +60,7 @@ const contact = () => {
           {/* canonical: */}
           <link
             rel="canonical"
-            href="https://www.bestsellingpublisher.com/contact-us"
+            href="https://www.broadwaypublishers.com/contact-us"
           />
         </Head>
         <MRHero

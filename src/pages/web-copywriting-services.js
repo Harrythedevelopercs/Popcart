@@ -106,7 +106,7 @@ const WebCopywritingServices = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     name: "Web Copywriting Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/web-copywriting-services",
+    url: "https://www.broadwaypublishers.com/web-copywriting-services",
     potentialAction: {
       "@type": "SearchAction",
       target: "{search_term_string}",
@@ -118,8 +118,8 @@ const WebCopywritingServices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     name: "Web Copywriting Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/web-copywriting-services",
-    logo: "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+    url: "https://www.broadwaypublishers.com/web-copywriting-services",
+    logo: "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
   };
 
   const schemaProffesionalService = {
@@ -127,9 +127,9 @@ const WebCopywritingServices = () => {
     "@type": "ProfessionalService",
     name: "Web Copywriting Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+      "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
     "@id": "",
-    url: "https://www.bestsellingpublisher.com/web-copywriting-services",
+    url: "https://www.broadwaypublishers.com/web-copywriting-services",
     telephone: "855-666-6675",
     address: {
       "@type": "PostalAddress",
@@ -165,7 +165,7 @@ const WebCopywritingServices = () => {
     "@type": "Product",
     name: "Web Copywriting Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+      "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
     description:
       "Get the best quality of web copies written with our web copywriting services",
     brand: {
@@ -193,7 +193,7 @@ const WebCopywritingServices = () => {
         <meta name="ICBM" content="39.78373, -100.445882" />
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/web-copywriting-services"
+          content="https://www.broadwaypublishers.com/web-copywriting-services"
         />
         <meta
           property="og:image"
@@ -203,7 +203,7 @@ const WebCopywritingServices = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/web-copywriting-services"
+          href="https://www.broadwaypublishers.com/web-copywriting-services"
         />
 
         {/* Schema */}

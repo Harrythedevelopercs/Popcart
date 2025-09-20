@@ -115,7 +115,7 @@ const SEOContentWritingServices = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     name: "SEO Content Writing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/seo-content-writing-services",
+    url: "https://www.broadwaypublishers.com/seo-content-writing-services",
     potentialAction: {
       "@type": "SearchAction",
       target: "{search_term_string}",
@@ -126,17 +126,17 @@ const SEOContentWritingServices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     name: "SEO Content Writing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/seo-content-writing-services",
-    logo: "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+    url: "https://www.broadwaypublishers.com/seo-content-writing-services",
+    logo: "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
   };
   const schemaProffesionalService = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     name: "SEO Content Writing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+      "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
     "@id": "",
-    url: "https://www.bestsellingpublisher.com/seo-content-writing-services",
+    url: "https://www.broadwaypublishers.com/seo-content-writing-services",
     telephone: "855-666-6675",
     address: {
       "@type": "PostalAddress",
@@ -171,7 +171,7 @@ const SEOContentWritingServices = () => {
     "@type": "Product",
     name: "SEO Content Writing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+      "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
     description:
       "If you want to write a professional website content then hire our SEO content writing services",
     brand: {
@@ -199,7 +199,7 @@ const SEOContentWritingServices = () => {
         <meta name="ICBM" content="39.78373, -100.445882" />
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/seo-content-writing-services"
+          content="https://www.broadwaypublishers.com/seo-content-writing-services"
         />
         <meta
           property="og:image"
@@ -209,7 +209,7 @@ const SEOContentWritingServices = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/seo-content-writing-services"
+          href="https://www.broadwaypublishers.com/seo-content-writing-services"
         />
 
         {/* Schema */}

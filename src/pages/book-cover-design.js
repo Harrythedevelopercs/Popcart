@@ -78,7 +78,7 @@ const BookCoverDesign = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     name: "Book Cover Design Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/book-cover-design",
+    url: "https://www.broadwaypublishers.com/book-cover-design",
     potentialAction: {
       "@type": "SearchAction",
       target: "{search_term_string}",
@@ -89,8 +89,8 @@ const BookCoverDesign = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     name: "Book Cover Design Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/book-cover-design",
-    logo: "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+    url: "https://www.broadwaypublishers.com/book-cover-design",
+    logo: "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
   };
 
   const schemaProffesionalService = {
@@ -98,9 +98,9 @@ const BookCoverDesign = () => {
     "@type": "ProfessionalService",
     name: "Book Cover Design Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+      "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
     "@id": "",
-    url: "https://www.bestsellingpublisher.com/book-cover-design",
+    url: "https://www.broadwaypublishers.com/book-cover-design",
     telephone: "855-666-6675",
     address: {
       "@type": "PostalAddress",
@@ -135,7 +135,7 @@ const BookCoverDesign = () => {
     "@type": "Product",
     name: "Book Cover Design Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+      "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
     description:
       "Design professional and top quality book covers with our book cover design services",
     brand: {
@@ -162,7 +162,7 @@ const BookCoverDesign = () => {
         <meta name="ICBM" content="39.78373, -100.445882" />
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/book-cover-design"
+          content="https://www.broadwaypublishers.com/book-cover-design"
         />
         <meta
           property="og:image"
@@ -172,7 +172,7 @@ const BookCoverDesign = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/book-cover-design"
+          href="https://www.broadwaypublishers.com/book-cover-design"
         />
 
         {/* Schema */}

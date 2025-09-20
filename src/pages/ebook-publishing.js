@@ -47,7 +47,7 @@ const EbookPublishing = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     name: "Ebook Publishing | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/ebook-publishing",
+    url: "https://www.broadwaypublishers.com/ebook-publishing",
     potentialAction: {
       "@type": "SearchAction",
       target: "{search_term_string}",
@@ -58,17 +58,17 @@ const EbookPublishing = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     name: "Ebook Publishing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/ebook-publishing",
-    logo: "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+    url: "https://www.broadwaypublishers.com/ebook-publishing",
+    logo: "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
   };
   const schemaProffesionalService = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     name: "Ebook Publishing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+      "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
     "@id": "",
-    url: "https://www.bestsellingpublisher.com/ebook-publishing",
+    url: "https://www.broadwaypublishers.com/ebook-publishing",
     telephone: "855-666-6675",
     address: {
       "@type": "PostalAddress",
@@ -103,7 +103,7 @@ const EbookPublishing = () => {
     "@type": "Product",
     name: "Ebook Publishing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+      "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
     description:
       "Hire the ebook publishing services and publish your masterpiece on your favourite platform",
     brand: {
@@ -135,7 +135,7 @@ const EbookPublishing = () => {
         <meta name="ICBM" content="39.78373, -100.445882" />
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/ebook-publishing"
+          content="https://www.broadwaypublishers.com/ebook-publishing"
         />
         <meta
           property="og:image"
@@ -145,7 +145,7 @@ const EbookPublishing = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/ebook-publishing"
+          href="https://www.broadwaypublishers.com/ebook-publishing"
         />
 
         {/* Schema */}

@@ -58,7 +58,7 @@ const MRCardData = [
       },
       {
         title: "Amazon Book Publishing",
-        desc: `We specialize in <a href="https://www.bestsellingpublisher.com/amazon-book-publishing" rel="dofollow"> Amazon Publishing Services </a> to provide comprehensive support for authors looking to thrive in the competitive online marketplace. From formatting to optimization, we handle every aspect to ensure your book stands out and reaches its full potential on Amazon. With expertise in Kindle Direct Publishing (KDP) setup and keyword optimization, we maximize your book's reach and potential sales.`,
+        desc: `We specialize in <a href="https://www.broadwaypublishers.com/amazon-book-publishing" rel="dofollow"> Amazon Publishing Services </a> to provide comprehensive support for authors looking to thrive in the competitive online marketplace. From formatting to optimization, we handle every aspect to ensure your book stands out and reaches its full potential on Amazon. With expertise in Kindle Direct Publishing (KDP) setup and keyword optimization, we maximize your book's reach and potential sales.`,
       },
       {
         title: "Book Editing and Publishing",
@@ -74,7 +74,7 @@ const MRCardData = [
       },
       {
         title: "Book Printing",
-        desc: `From paperback to hardcover, we offer many options to suit your needs in our <a href="https://www.bestsellingpublisher.com/book-printing" rel="dofollow">book printing services.</a> Using cutting-edge technology, we take pride in delivering top-grade printing quality to ensure every detail of your book is reproduced with clarity and precision.`,
+        desc: `From paperback to hardcover, we offer many options to suit your needs in our <a href="https://www.broadwaypublishers.com/book-printing" rel="dofollow">book printing services.</a> Using cutting-edge technology, we take pride in delivering top-grade printing quality to ensure every detail of your book is reproduced with clarity and precision.`,
       },
     ],
   },
@@ -114,7 +114,7 @@ const Home = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     name: "Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/",
+    url: "https://www.broadwaypublishers.com/",
     potentialAction: {
       "@type": "SearchAction",
       target: "{search_term_string}",
@@ -125,8 +125,8 @@ const Home = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     name: "Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/",
-    logo: "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+    url: "https://www.broadwaypublishers.com/",
+    logo: "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
   };
 
   const schemaProffesionalService = {
@@ -134,9 +134,9 @@ const Home = () => {
     "@type": "ProfessionalService",
     name: "Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+      "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
     "@id": "",
-    url: "https://www.bestsellingpublisher.com/",
+    url: "https://www.broadwaypublishers.com/",
     telephone: "855-666-6675",
     address: {
       "@type": "PostalAddress",
@@ -171,7 +171,7 @@ const Home = () => {
     "@type": "Product",
     name: "Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+      "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
     description:
       "Broadway Publishers can publish your book in no time as we are the leading book publishers in US",
     brand: {
@@ -207,7 +207,7 @@ const Home = () => {
 
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com"
+          content="https://www.broadwaypublishers.com"
         />
         <meta
           property="og:image"
@@ -215,7 +215,7 @@ const Home = () => {
         />
 
         {/* canonical: */}
-        <link rel="canonical" href="https://www.bestsellingpublisher.com" />
+        <link rel="canonical" href="https://www.broadwaypublishers.com" />
 
         {/* Schema */}
         <script

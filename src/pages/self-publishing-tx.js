@@ -48,9 +48,9 @@ const SelfPublishingFa = () => {
               "@type": "ProfessionalService",
               name: "Self Publishing Services in Texas",
               image:
-                "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+                "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
               "@id": "",
-              url: "https://www.bestsellingpublisher.com/self-publishing-tx",
+              url: "https://www.broadwaypublishers.com/self-publishing-tx",
               telephone: "855-666-6675",
               address: {
                 "@type": "PostalAddress",

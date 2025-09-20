@@ -53,7 +53,7 @@ export default function BlogPost({ blog }) {
         <meta property="og:description" content={blog.description} />
         <meta
           property="og:url"
-          content={`https://www.bestsellingpublisher.com/${blog.slug}`}
+          content={`https://www.broadwaypublishers.com/${blog.slug}`}
         />
         <meta property="og:type" content="article" />
         <meta property="og:image" content={blog.img} />
@@ -63,7 +63,7 @@ export default function BlogPost({ blog }) {
         <meta name="twitter:image" content={blog.img} />
         <link
           rel="canonical"
-          href={`https://www.bestsellingpublisher.com/${blog.slug}`}
+          href={`https://www.broadwaypublishers.com/${blog.slug}`}
         />
 
         {/* Schema Markup for SEO */}
@@ -86,7 +86,7 @@ export default function BlogPost({ blog }) {
                 name: "Broadway Publishers",
                 logo: {
                   "@type": "ImageObject",
-                  url: "https://www.bestsellingpublisher.com/logo.png",
+                  url: "https://www.broadwaypublishers.com/logo.png",
                 },
               },
             }),

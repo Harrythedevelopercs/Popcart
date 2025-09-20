@@ -115,7 +115,7 @@ const ScriptWritingServices = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     name: "Script Writing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/script-writing-services",
+    url: "https://www.broadwaypublishers.com/script-writing-services",
     potentialAction: {
       "@type": "SearchAction",
       target: "{search_term_string}",
@@ -127,17 +127,17 @@ const ScriptWritingServices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     name: "Script Writing Services | Broadway Publishers",
-    url: "https://www.bestsellingpublisher.com/script-writing-services",
-    logo: "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+    url: "https://www.broadwaypublishers.com/script-writing-services",
+    logo: "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
   };
   const schemaProffesionalService = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     name: "Script Writing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
+      "https://www.broadwaypublishers.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.1f749c62.png&w=384&q=95",
     "@id": "",
-    url: "https://www.bestsellingpublisher.com/script-writing-services",
+    url: "https://www.broadwaypublishers.com/script-writing-services",
     telephone: "855-666-6675",
     address: {
       "@type": "PostalAddress",
@@ -172,7 +172,7 @@ const ScriptWritingServices = () => {
     "@type": "Product",
     name: "Script Writing Services | Broadway Publishers",
     image:
-      "https://www.bestsellingpublisher.com/_next/static/media/logo.1f749c62.png",
+      "https://www.broadwaypublishers.com/_next/static/media/logo.1f749c62.png",
     description:
       "Take your scripts to the next level with our top rated script writing services",
     brand: {
@@ -200,7 +200,7 @@ const ScriptWritingServices = () => {
         <meta name="ICBM" content="39.78373, -100.445882" />
         <meta
           property="og:url"
-          content="https://www.bestsellingpublisher.com/script-writing-services"
+          content="https://www.broadwaypublishers.com/script-writing-services"
         />
         <meta
           property="og:image"
@@ -210,7 +210,7 @@ const ScriptWritingServices = () => {
         {/* canonical: */}
         <link
           rel="canonical"
-          href="https://www.bestsellingpublisher.com/script-writing-services"
+          href="https://www.broadwaypublishers.com/script-writing-services"
         />
 
         {/* Schema */}
