@@ -21,29 +21,29 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <link rel="icon" href="/images/favicon.svg" />
-        
+
       </Head>
       <main
         className={`${primary.className} ${SfProDisplay.variable} ${fontMono.variable} `}
       >
         {router.pathname == "/lp-one" ||
-        router.pathname == "/audiobook-production-services" ||
-        router.pathname == "/book-marketing-company" ||
-        router.pathname == "/case-studies" ||
-        router.pathname == "/book-illustration-services" ||
-        router.pathname == "/children-book-publishing-lp" ||
-        router.pathname == "/lp/book-publishing-company" ||
-        router.pathname == "/lp/book-marketing-company" ||
-        router.pathname == "/booknewbrand-v2" ||
-        router.pathname == "/lp-publishing" ||
-        router.pathname == "/lp-publishing-2" ||
-        router.pathname == "/lp/book-promotion-marketing" ||
-        router.pathname == "/lp/lp1" ||
-        router.pathname == "/lp/lp2" ||
-        router.pathname == "/lp/lp3" ||
-        router.pathname == "/lp/lp4" ||
-        router.pathname == "/lp/lp5" ||
-        router.pathname == "/lp/book-marketing-lp" ? (
+          router.pathname == "/audiobook-production-services" ||
+          router.pathname == "/book-marketing-company" ||
+          router.pathname == "/case-studies" ||
+          router.pathname == "/book-illustration-services" ||
+          router.pathname == "/children-book-publishing-lp" ||
+          router.pathname == "/lp/book-publishing-company" ||
+          router.pathname == "/lp/book-marketing-company" ||
+          router.pathname == "/booknewbrand-v2" ||
+          router.pathname == "/lp-publishing" ||
+          router.pathname == "/lp-publishing-2" ||
+          router.pathname == "/lp/book-promotion-marketing" ||
+          router.pathname == "/lp/lp1" ||
+          router.pathname == "/lp/lp2" ||
+          router.pathname == "/lp/lp3" ||
+          router.pathname == "/lp/lp4" ||
+          router.pathname == "/lp/lp5" ||
+          router.pathname == "/lp/book-marketing-lp" ? (
           ""
         ) : (
           <Headernew />
@@ -53,19 +53,19 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
         </PopupProvider>
         {router.pathname == "/book-marketing-company" ||
-        router.pathname == "/audiobook-production-services" ||
-        router.pathname == "/lp/book-publishing-company" ||
-        router.pathname == "/book-illustration-services" ||
-        router.pathname == "/children-book-publishing-lp" ||
-        router.pathname == "/lp/book-marketing-company" ||
-        router.pathname == "/lp/book-promotion-marketing" ||
-        router.pathname == "/lp/lp1" ||
-        router.pathname == "/lp/lp2" ||
-        router.pathname == "/lp/lp3" ||
-        router.pathname == "/lp/lp4" ||
-        router.pathname == "/lp/lp5" ||
-        router.pathname == "/lp-publishing" ||
-        router.pathname == "/lp-publishing-2" ? (
+          router.pathname == "/audiobook-production-services" ||
+          router.pathname == "/lp/book-publishing-company" ||
+          router.pathname == "/book-illustration-services" ||
+          router.pathname == "/children-book-publishing-lp" ||
+          router.pathname == "/lp/book-marketing-company" ||
+          router.pathname == "/lp/book-promotion-marketing" ||
+          router.pathname == "/lp/lp1" ||
+          router.pathname == "/lp/lp2" ||
+          router.pathname == "/lp/lp3" ||
+          router.pathname == "/lp/lp4" ||
+          router.pathname == "/lp/lp5" ||
+          router.pathname == "/lp-publishing" ||
+          router.pathname == "/lp-publishing-2" ? (
           ""
         ) : (
           <Footer1 />
@@ -73,7 +73,21 @@ export default function App({ Component, pageProps }) {
       </main>
       {loadScript && (
         <>
-          
+          <Script>
+            {
+              `
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/68cd844ed63c4c192442c006/1j5hcpkv7';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+`
+            }
+          </Script>
         </>
       )}
     </>
