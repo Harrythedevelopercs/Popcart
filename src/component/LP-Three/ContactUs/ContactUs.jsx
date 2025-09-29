@@ -179,7 +179,7 @@ const ContactUs = () => {
                                 </a>
                                 <a href="javascript:;" target="_blank" className="flex items-center gap-x-3 mb-3">
                                     <span className="block"><Image src={Location} alt="icons" width={20} height={20} /></span>
-                                    <span className="block">9518 Mykawa Road, Houston, TX 77048 </span>
+                                    <span className="block">15-312 79th St, Howard Beach, NY 11414, USA </span>
                                 </a>
                             </div>
                             <div className="flex mr-sm:flex-nowrap flex-wrap mr-sm:w-max mr-sm:gap-x-5 gap-5 items-center pt-6 border-t border-[#8A8A8A]">

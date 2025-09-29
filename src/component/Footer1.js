@@ -270,7 +270,7 @@ const NewFooter = () => {
                           alt="Amazon Book Publishing "
                           className="min-h-[25px]object-contain xl:pt-0 pt-1"
                         />
-                        9518 Mykawa Road, Houston, TX 77048
+                        15-312 79th St, Howard Beach, NY 11414, USA
                       </Link>
                     </li>
                   </ul>

@@ -209,7 +209,7 @@ const ContactForm = ({ isContact = true }) => {
                       className="flex items-center gap-x-4 text-[14px] mr-md:text-[18px] secondary font-[300] mb-5"
                     >
                       <Image src={Location} alt="PSB" width={20} height={20} />
-                      <span>9518 Mykawa Road, Houston, TX 77048 </span>
+                      <span>15-312 79th St, Howard Beach, NY 11414, USA </span>
                     </a>
                   </div>
                 ) : null}

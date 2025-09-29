@@ -145,7 +145,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="#" className={styles.LocIcon}>
-                      9518 Mykawa Road, Houston, TX 77048
+                      15-312 79th St, Howard Beach, NY 11414, USA
                     </Link>
                   </li>
                 </ul>
